@@ -1,0 +1,78 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #a92020;
+
+}
+
+.login-container {
+    background-color:#a92020;;
+    padding: 50px 80px;  /* Increased padding for more space */
+    border: solid  grey;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);  /* Slightly larger shadow */
+    text-align: center;
+    width: 100%;
+    max-width: 700px;  /* Increased max-width to make container larger */
+    color: white;
+}
+
+h1 {
+    margin-bottom: 30px;  /* Increased margin for more space */
+    font-size: 32px;  /* Larger font size */
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 25px;  /* Increased margin for more space */
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;  /* Increased margin for more space */
+    color: white;
+}
+
+input {
+    width: 100%;  /* Make inputs take full width */
+    padding: 15px;  /* Increased padding for larger input fields */
+    margin-bottom: 15px;  /* Increased margin for more space */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px;  /* Larger font size for inputs */
+}
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 30px;  /* Increased margin for more space */
+}
+
+.forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 15px;  /* Increased padding */
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;  /* Larger font size */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: saddlebrown;
+}
