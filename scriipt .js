@@ -23,4 +23,16 @@ document.addEventListener('DOMContentLoaded', function() {
 close
 
 
+document.addEventListener('DOMContentLoaded', function() {
+    var menuItems = document.querySelectorAll('.sidebar-menu li');
+
+    menuItems.forEach(function(item) {
+        item.addEventListener('click', function() {
+            menuItems.forEach(function(el) {
+                el.classList.remove('active');
+            });
+            item.classList.add('active');
+        });
+    });
+});
 

@@ -60,6 +60,20 @@ body, html {
     display: none;
 }
 
+.logout-menu {
+    margin-top: auto;
+    margin-bottom: 80px; /* Adjust this value as needed */
+}
+
+.sidebar-menu li:hover {
+    background-color: #d4af37; /* Gold color for hover */
+}
+
+.sidebar-menu li.active {
+    background-color: gold;
+    color: black;
+}
+
 .toggle-btn {
     position: absolute;
     bottom: 20px;
